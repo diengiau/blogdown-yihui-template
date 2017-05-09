@@ -1,6 +1,6 @@
 baseurl: "/"
 languageCode: "en-us"
-title: "The title of your website"
+title: "Dien Giau Bui"
 theme: "hugo-lithium-theme"
 googleAnalytics: ""
 disqusShortname: ""
@@ -10,7 +10,7 @@ enableEmoji: true
 footnotereturnlinkcontents: "↩"
 
 permalinks:
-  cn: "/cn/:year/:month/:slug/"
+  vn: "/vn/:year/:month/:slug/"
   en: "/en/:year/:month/:slug/"
 
 menu:
@@ -22,10 +22,10 @@ menu:
       url: "/en/"
       weight: 2
     - name: "关于"
-      url: "/cn/about/"
+      url: "/vn/about/"
       weight: 3
     - name: "博客"
-      url: "/cn/"
+      url: "/vn/"
       weight: 4
   en:
     - name: "Home"
@@ -40,21 +40,21 @@ menu:
     - name: "Vitae"
       url: "/en/vitae/"
       weight: 4
-    - name: "中文"
-      url: "/cn/"
+    - name: "Vietnamese"
+      url: "/vn/"
       weight: 5
   cn:
-    - name: "首页"
+    - name: "Trang chủ"
       url: "/"
       weight: 1
-    - name: "关于"
-      url: "/cn/about/"
+    - name: "Giới thiệu"
+      url: "/vn/about/"
       weight: 2
-    - name: "博客"
-      url: "/cn/"
+    - name: "Bài viết"
+      url: "/vn/"
       weight: 3
-    - name: "简历"
-      url: "/cn/vitae/"
+    - name: "Hồ sơ"
+      url: "/vn/vitae/"
       weight: 4
     - name: "English"
       url: "/en/"
@@ -71,16 +71,16 @@ menu:
       weight: 3
     - name: "Github repo"
       pre: "github"
-      url: "https://github.com/yihui/blogdown-yihui-template"
+      url: "https://github.com/diengiau/blogdown-yihui-template"
       weight: 4
 
 params:
-  description: "Description of your website."
-  disqusURL: "http://yihui.name"
-  fullURL: "https://yihui.name"
+  description: "not so anomaly"
+  disqusURL: "http://diengiau.github.io"
+  fullURL: "https://diengiau.github.io"
   customCSS: ["css/custom.css"]
   customJS: ["js/center-img.js", "js/right-quote.js", "js/no-highlight.js", "js/fix-footnote.js"]
-  githubContentURL: "https://github.com/rbind/yihui.name/edit/master/content/"
+  githubContentURL: "https://github.com/rbind/diengiau.github.io/edit/master/content/"
 
   # options for highlight.js (version, additional languages, and theme)
   highlightjsVersion: "9.9.0"
@@ -88,25 +88,25 @@ params:
   highlightjsTheme: "github"
 
   social:
-    twitter: "xieyihui"
-    weibo: "谢益辉"
-    weibo_url: "yihuixie"
-    github: "yihui"
+    twitter: "buidiengiau"
+    weibo:
+    weibo_url:
+    github: "diengiau"
 
   logo:
     url: "logo.png"
     width: 50
     height: 50
-    alt: "Yihui Xie"
+    alt: "Dien Giau Bui"
 
   author:
-    en: "Yihui Xie"
-    cn: "谢益辉"
+    en: "Dien Giau Bui"
+    vn: "Dien Giau Bui"
 
   lang:
     edit:
       en: "Suggest an edit of this page"
-      cn: "编辑本页"
+      vn: "Chỉnh sửa"
 
 blackfriday:
     extensionsmask: ["noIntraEmphasis"]
